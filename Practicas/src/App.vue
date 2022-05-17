@@ -17,7 +17,7 @@ export default defineComponent({
   },
   created() {
     const auth = getAuth();
-    signInWithEmailAndPassword(auth, "ralejandrobm@gmail.com", "alex00")
+    signInWithEmailAndPassword(auth, "200101@gmail.com", "200101")
       .then((userCredential) => {
         // Signed in
         const user = userCredential.user;
